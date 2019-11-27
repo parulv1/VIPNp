@@ -6,3 +6,19 @@ Prediction can be done using blood samples collected on day 8 and 6 months of th
 If you have the actual data of VIPN susceptibility of each of these patients, you can also upload that. Simply upload a csv file with a single column, where row entry will either be "High" or "Low". Upon uploading that, you can see the confusion matrix and other accuracy parameters to test our model accuracy. Check out this [link](https://parulv1.shinyapps.io/vipnp_shiny/) for VIPNp on the shinyapps server. 
 
 Note: Our model cannot handle missing data. Please estimate it before uploading the metabolite profile. We recommend to estimate missing data by manually inspecting each chromatogram peak and reintegrating the peaks if required. Caret and e1071 packages are needed to run this app. Please install them before using VIPNp.
+
+
+## Cite
+If you found this package useful, please cite the following work.
+
+```
+@article{Verma2019VIPNp,
+title = {A {M}etabolomics {A}pproach for {E}arly {P}rediction of {V}incristine-{I}nduced {P}eripheral {N}europathy},
+author = {Verma, Parul and Deveraj, Jayachandran and Skiles, Jodi L. and Sajdyk, Tammy and Smith, Ellen M.L. and
+          Ho, Richard H. and Hutchinson, Raymond and Wells, Elizabeth and   Li, Lang and  
+          Renbarger, Jamie and Cooper, Bruce and Ramkrishna, Doraiswami},
+journal = {Preprint},
+year = {2019},
+url = {https://www.medrxiv.org/content/10.1101/19013078v1}
+}
+```
