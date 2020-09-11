@@ -32,11 +32,11 @@ Example input file for `m` patients with `n` metabolites:
 <mass of metabolite M_n (in Da)>@<retention time of metabolite M_n>, <observation of M_n for patient 1>, <observation of M_n for patient 2>, ..., <observation of M_n for patient m>
 ```
 
-For details on mass spectrometry, see Methods section (page 13) of [the paper](https://www.medrxiv.org/content/10.1101/19013078v1).
+For details on mass spectrometry, see Methods section (page 13) of [the paper](https://www.nature.com/articles/s41598-020-66815-y).
 
 
 ## Model Comparison
-If you have the actual data of VIPN susceptibility of each of these patients, you can also upload that. Simply upload a csv file with a single column, where row entry will either be "High" or "Low". Upon uploading that, you can see the confusion matrix and other accuracy parameters to test our model accuracy. See page 3 of [the paper](https://www.medrxiv.org/content/10.1101/19013078v1) for details on how to phenotype the patients.
+If you have the actual data of VIPN susceptibility of each of these patients, you can also upload that. Simply upload a csv file with a single column, where row entry will either be "High" or "Low". Upon uploading that, you can see the confusion matrix and other accuracy parameters to test our model accuracy. See page 3 of [the paper](https://www.nature.com/articles/s41598-020-66815-y) for details on how to phenotype the patients.
 
 Example predictions file:
 ```
