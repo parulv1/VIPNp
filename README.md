@@ -1,6 +1,6 @@
 # VIPNp: Prediction of VIPN in pediatric leukemic cancer patients
 
-The purpose of this app is to predict probability that acute lymphoblastic leukemia (ALL) patients are susceptible to vincristine-induced peripheral neuropathy (VIPN), using their metabolite profiles. It is based on our trained SVM models --- see [the paper](https://www.medrxiv.org/content/10.1101/19013078v1) for details. 
+The purpose of this app is to predict probability that acute lymphoblastic leukemia (ALL) patients are susceptible to vincristine-induced peripheral neuropathy (VIPN), using their metabolite profiles. It is based on our trained SVM models --- see [the paper](https://www.nature.com/articles/s41598-020-66815-y) for details. 
 
 The app can be run online [at this link](https://parulv1.shinyapps.io/vipnp_shiny/) or [locally, using R](#running-locally).
 
@@ -67,13 +67,13 @@ If you have questions regarding the usage of this app, please contact [Parul Ver
 If you found this package useful, please cite the following work.
 
 ```
-@article{Verma2019VIPNp,
-title = {A {M}etabolomics {A}pproach for {E}arly {P}rediction of {V}incristine-{I}nduced {P}eripheral {N}europathy},
-author = {Verma, Parul and Deveraj, Jayachandran and Skiles, Jodi L. and Sajdyk, Tammy and
-          Ho, Richard H. and Hutchinson, Raymond and Wells, Elizabeth and Li, Lang and  
-          Renbarger, Jamie and Cooper, Bruce and Ramkrishna, Doraiswami},
-journal = {Preprint},
-year = {2019},
-url = {https://www.medrxiv.org/content/10.1101/19013078v1}
+@article{Verma2020VIPNp,
+  title={A {M}etabolomics {A}pproach for {E}arly {P}rediction of {V}incristine-{I}nduced {P}eripheral {N}europathy},
+  author={Parul, Verma and Jayachandran, Devaraj and Skiles, Jodi L and Tammy, Sajdyk and Ho, Richard H and Hutchinson, Raymond and Wells, Elizabeth and Lang, Li and Jamie, Renbarger and Cooper, Bruce and others},
+  journal={Scientific Reports (Nature Publisher Group)},
+  volume={10},
+  number={1},
+  year={2020},
+  publisher={Nature Publishing Group}
 }
 ```
